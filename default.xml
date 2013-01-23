@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+           fetch="ssh://git@github.com"/>
+
+  <remote  name="MiCode"
+           fetch="https://github.com" />
+
+
+  <default revision="refs/heads/master"
+           remote="MiCode"
+           sync-j="4" />
+
+  <project path="manifest" name="trulyliu/patchrom"/>
+  <project path="onext" name="trulyliu/patchrom_onext"/>
+  <project path="build" name="MiCode/patchrom_build" remote="MiCode" revision='jellybean'>
+    <copyfile src="makefile" dest="Makefile" />
+  </project>
+  <project path="android" name="MiCode/patchrom_android" remote="MiCode" revision='jellybean'/>
+  <project path="onex" name="MiCode/patchrom_onex" remote="MiCode" revision='jellybean'/>
+  <project path="miui" name="MiCode/patchrom_miui" remote="MiCode" revision='jellybean'/>
+  <project path="tools" name="MiCode/patchrom_tools" remote="MiCode" revision='jellybean'/>
+</manifest>
