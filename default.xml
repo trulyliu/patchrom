@@ -12,13 +12,13 @@
            remote="MiCode"
            sync-j="4" />
 
-  <project path="manifest" name="trulyliu/patchrom"/>
-  <project path="onext" name="trulyliu/patchrom_onext"/>
-  <project path="build" name="MiCode/patchrom_build" remote="MiCode" revision='jellybean'>
+  <project path="manifest" name="trulyliu/patchrom" revision='MIUI_V4'/>
+  <project path="onext" name="trulyliu/patchrom_onext" revision='V4/2013_02_22'/>
+  <project path="build" name="MiCode/patchrom_build" remote="MiCode" revision='473372e42335dacaa8e12e5716aab19ff6cb2598'>
     <copyfile src="makefile" dest="Makefile" />
   </project>
-  <project path="android" name="MiCode/patchrom_android" remote="MiCode" revision='jellybean'/>
-  <project path="onex" name="MiCode/patchrom_onex" remote="MiCode" revision='jellybean'/>
-  <project path="miui" name="MiCode/patchrom_miui" remote="MiCode" revision='jellybean'/>
-  <project path="tools" name="MiCode/patchrom_tools" remote="MiCode" revision='jellybean'/>
+  <project path="android" name="MiCode/patchrom_android" remote="MiCode" revision='fc86cf0d7b24cad3686de775012d800c142ed184'/>
+  <project path="onex" name="MiCode/patchrom_onex" remote="MiCode" revision='8b00e32acc62136ef06a401f3131216376858276'/>
+  <project path="miui" name="MiCode/patchrom_miui" remote="MiCode" revision='178f2e78707ff785d0ef362dc663cddc2927492d'/>
+  <project path="tools" name="MiCode/patchrom_tools" remote="MiCode" revision='b49627c71792c48ec3fc3669ca686c85f9fa36ae'/>
 </manifest>
