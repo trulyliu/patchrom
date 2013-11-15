@@ -23,7 +23,6 @@
   <project path="miui" name="MiCode/patchrom_miui" remote="MiCode"/>
   <project path="tools" name="MiCode/patchrom_tools" remote="MiCode"/>
   <project path="9100cm" name="ymdzq/patchrom-i9100-CM" remote="MiCode" revision='jellybean42'/>
-  <project path="miui" name="MiCode/patchrom_miui" remote="MiCode" revision='jellybean42'/>
   <project path="9508cm" name="trulyliu/patchrom-i9508-CM" remote="github" revision='jellybean42'/>
   <project path="9508" name="trulyliu/patchrom_i9508" remote="github" revision='jellybean42'/>
 </manifest>
