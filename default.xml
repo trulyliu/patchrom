@@ -9,17 +9,18 @@
            review="ssh://git@github.com" />
 
 
-  <default revision="refs/heads/jellybean"
+  <default revision="refs/heads/kitkat"
            remote="MiCode"
            sync-j="4" />
 
   <project path="manifest" name="trulyliu/patchrom"/>
-  <project path="onext" name="trulyliu/patchrom_onext"/>
+  <project path="onext" name="trulyliu/patchrom_onext" revision="jellybean"/>
+  <project path="onex" name="MiCode/patchrom_onex" remote="MiCode" revision="jellybean"/>
   <project path="build" name="MiCode/patchrom_build" remote="MiCode">
     <copyfile src="makefile" dest="Makefile" />
   </project>
   <project path="android" name="MiCode/patchrom_android" remote="MiCode"/>
-  <project path="onex" name="MiCode/patchrom_onex" remote="MiCode"/>
+  <project path="bacon" name="X-s/patchrom_miui_oneplus_bacon" revision="refs/heads/kitkat-cm11-m9"/>
   <project path="miui" name="MiCode/patchrom_miui" remote="MiCode"/>
   <project path="tools" name="MiCode/patchrom_tools" remote="MiCode"/>
   <project path="9100cm" name="ymdzq/patchrom-i9100-CM" remote="MiCode" revision='jellybean42'/>
