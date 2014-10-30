@@ -28,6 +28,6 @@
   <!-- Projects which should stick on specific revision -->
   <project path="onext" name="trulyliu/patchrom_onext" revision="jellybean"/>
   <project path="onex" name="MiCode/patchrom_onex" remote="MiCode" revision="jellybean"/>
-  <project path="bacon" name="X-s/patchrom_miui_oneplus_bacon" revision="refs/heads/kitkat-cm11-m9"/>
+  <project path="bacon" name="X-s/patchrom_miui_oneplus_bacon" remote="MiCode" revision="refs/heads/kitkat-cm11-m9"/>
   <project path="9100cm" name="ymdzq/patchrom-i9100-CM" remote="MiCode" revision='jellybean42'/>
 </manifest>
